@@ -1,0 +1,51 @@
+.cmp-colaborador {
+    width: 262px;
+    height: 272px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 24px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+
+    &__image-wrapper {
+        background-color: #57C278;
+        width: 100%;
+        border-top-left-radius: 24px;
+        border-top-right-radius: 24px;
+        height: 100px;
+
+        & img {
+            position: relative;
+            top: 40px;
+            width: 130px;
+            border-radius: 100px;
+        }
+    }
+
+    &__content-wrapper {
+        margin-top: 70px;
+        padding: 20px;
+
+        & h4 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            text-align: center;
+            color: #6278F7;
+            margin: 0px;
+            margin-bottom: 10px;
+        }
+
+        & h5 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            margin: 0px;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.cmp-footer {
+    height: 213px;
+    background-color: #6278F7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__container {
+        background: url('../../../public/imagens/fundo.png');
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+
+        &__social {
+            width: 200px;
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+        }
+
+        &__author {
+            font-family: 'montserrat', Georgia, 'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: #ffffff;
+        }
+    }
+}

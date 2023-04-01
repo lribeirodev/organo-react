@@ -1,0 +1,99 @@
+@import '../../var.scss';
+
+.cmp-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 37px;
+    &__colaborador-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &.programação {
+        background-color: $programacao-background;
+        & h3::after {
+            border-color: $programacao-destaque;
+        }
+        & .cmp-colaborador {
+            &__image-wrapper {
+                background-color: $programacao-destaque;;
+            }
+        }
+    }
+
+    &.frontend {
+        background-color: $frontend-background;
+        & h3::after {
+            border-color: $frontend-destaque;
+        }
+        & .cmp-colaborador {
+            &__image-wrapper {
+                background-color: $frontend-destaque;;
+            }
+        }
+    }
+
+    &.data-science {
+        background-color: $datascience-background;
+        & h3::after {
+            border-color: $datascience-destaque;
+        }
+        & .cmp-colaborador {
+            &__image-wrapper {
+                background-color: $datascience-destaque;;
+            }
+        }
+    }
+
+    &.devops {
+        background-color: $devops-background;
+        & h3::after {
+            border-color: $devops-destaque;
+        }
+        & .cmp-colaborador {
+            &__image-wrapper {
+                background-color: $devops-destaque;;
+            }
+        }
+    }
+
+    &.ux-e-design {
+        background-color: $uxdesign-background;
+        & h3::after {
+            border-color: $uxdesign-destaque;
+        }
+        & .cmp-colaborador {
+            &__image-wrapper {
+                background-color: $uxdesign-destaque;;
+            }
+        }
+    }
+
+    &.mobile {
+        background-color: $mobile-background;
+        & h3::after {
+            border-color: $mobile-destaque;
+        }
+        & .cmp-colaborador {
+            &__image-wrapper {
+                background-color: $mobile-destaque;;
+            }
+        }
+    }
+
+    &.inovação-e-gestão {
+        background-color: $inovation-background;
+        & h3::after {
+            border-color: $inovation-destaque;
+        }
+        & .cmp-colaborador {
+            &__image-wrapper {
+                background-color: $inovation-destaque;;
+            }
+        }
+    }
+}
